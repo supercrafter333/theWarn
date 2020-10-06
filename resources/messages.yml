@@ -1,0 +1,13 @@
+#edit the messages here
+#you can use {player} to get the name of the command-sender
+#you can use {warnplayer} to get the name of the warned player
+#you can use {warnnumber} to get the number of warns by the warned player
+#you can make a new line with \n
+player-was-warned-message: "You have warned {warnplayer}!"
+warn-message: "You was warned by {player}!"
+ban-kick-message: "You have become the 3rd warn from {player}!\nYou are banned for 7 Days!"
+player-was-banned-message: "You have warned {warnplayer}! It was his/shes 3rd warn, he/she was banned!"
+invalid-playername-message: "This player is not Online! You can't warn a offline-player!"
+usage-message: "§4Usage: §r/warn <playername> <reason>"
+missing-permissions-message: "§4You don't have permissions to do that!"
+you-are-banned-message: "You are banned! You can't join to this Server!"
