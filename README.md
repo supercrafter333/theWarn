@@ -8,7 +8,7 @@ Pssst... This plugin is on Poggit: <a href="https://poggit.pmmp.io/ci/supercraft
 In the Plugin Folder (server\plugin_data\theWarn) can you edit every messages in this plugin!
 
 
-### Commmands + Permissions
+### Commands + Permissions
 ``/warn <playername> <reason>  |  thewarn.warn.cmd``
 
 
@@ -17,4 +17,4 @@ This Plugin is Licensed with the [GNU General Public License](/LICENSE)! Plugin 
 
 
 
-I hope that do you have fun with this plugin!
+I hope that you have fun with this plugin!
