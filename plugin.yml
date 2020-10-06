@@ -1,0 +1,14 @@
+name: theWarn
+version: 1.0.0
+api: 3.0.0
+main: supercrafter333\theWarn\theWarn
+author: supercrafter333
+
+commands:
+  thewarn:
+    description: "Warn a player!"
+    aliases: ["twarn", "warn"]
+
+permissions:
+  thewarn.warn.command:
+    description: Warn a player
