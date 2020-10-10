@@ -5,7 +5,7 @@ Pssst... This plugin is on Poggit: <a href="https://poggit.pmmp.io/ci/supercraft
 
 
 ### Configuration
-In the Plugin Folder (server\plugin_data\theWarn) can you edit every messages in this plugin!
+In the plugin folder (server/plugin_data/theWarn) you can edit all messages in this plugin!
 
 
 ### Commands + Permissions
