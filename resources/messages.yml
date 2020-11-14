@@ -11,3 +11,9 @@ invalid-playername-message: "This player is not Online! You can't warn a offline
 usage-message: "§4Usage: §r/warn <playername> <reason>"
 missing-permissions-message: "§4You don't have permissions to do that!"
 you-are-banned-message: "You are banned! You can't join to this Server!"
+manual-unban-message: "You've unbanned {player}!"
+manual-unban-usage-message: "§4Usage: §r/thewarnunban <playername>"
+manual-unban-invalid-playername-message: "This player is not banned!"
+
+#don't change this
+version: 1.1
