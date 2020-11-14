@@ -4,6 +4,7 @@ namespace supercrafter333\theWarn;
 
 use DateInterval;
 use DateTime;
+use Error;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
@@ -11,6 +12,7 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerPreLoginEvent;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
+use pocketmine\Server;
 use pocketmine\utils\Config;
 
 class theWarn extends PluginBase implements Listener {
@@ -19,6 +21,11 @@ class theWarn extends PluginBase implements Listener {
     {
         $this->saveResource("messages.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
+        if (!$messages->exists("version") && !$messages->get("version") == "1.1") {
+            $this->getServer()->getLogger()->error("<theWarn> !!OUTDATED CONFIG!! Please delete the file »messages.yml« and restart your server!");
+            $this->getServer()->getPluginManager()->disablePlugin($this);
+        }
     }
 
     public function onJoin(PlayerJoinEvent $event) {
@@ -72,6 +79,30 @@ class theWarn extends PluginBase implements Listener {
                 return true;
             }
         }
+        if ($cmd->getName() == "thewarnunban") {
+            $ban = new Config($this->getDataFolder() . "bans.yml", Config::YAML);
+            if ($s->hasPermission("thewarn.thewarnunban.cmd")) {
+                if (count($args) >= 1) {
+                    if (isset($args[0])) {
+                        if ($config->exists($args[0]) && $ban->exists($args[0])) {
+                            $config->remove($args[0]);
+                            $config->save();
+                            $ban->remove($args[0]);
+                            $ban->save();
+                            $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-message")));
+                        } else {
+                            $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix.$messages->get("manual-unban-invalid-playername-message")));
+                        }
+                    } else {
+                        $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-usage-message")));
+                    }
+                } else {
+                    $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-usage-message")));
+                }
+            } else {
+                $s->sendMessage($prefix . $messages->get("missing-permissions-message"));
+            }
+        }
         return true;
     }
 
@@ -89,6 +120,10 @@ class theWarn extends PluginBase implements Listener {
                     $player->close("", $messages->get("you-are-banned-message"));
                 } elseif ($bantimer < $now) {
                     $event->setCancelled(false);
+                    $config->remove($playername);
+                    $config->save();
+                    $ban->remove($playername);
+                    $ban->save();
                 }
             } else {
                 $event->setCancelled(false);
