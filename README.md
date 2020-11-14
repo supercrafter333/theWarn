@@ -10,6 +10,8 @@ In the plugin folder (server/plugin_data/theWarn) you can edit all messages in t
 
 ### Commands + Permissions
 ``/warn <playername> <reason>  |  thewarn.warn.cmd``
+``/thewarnunban <playername>  |  thewarn.thewarnunban.cmd``
+bypass-permission: ``thewarn.cmd``
 
 
 ### License
