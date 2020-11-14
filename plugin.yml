@@ -1,5 +1,5 @@
 name: theWarn
-version: 1.0.0
+version: 1.1.0
 api: 3.0.0
 main: supercrafter333\theWarn\theWarn
 author: supercrafter333
@@ -8,7 +8,17 @@ commands:
   thewarn:
     description: "Warn a player!"
     aliases: ["twarn", "warn"]
+  thewarnunban:
+    description: "Unban a banned player by thWarn!"
+    aliases: ["twunban", "twu"]
 
 permissions:
-  thewarn.warn.command:
-    description: Warn a player
+  thewarn.cmd:
+    default: op
+    children:
+      thewarn.warn.command:
+        description: Warn a player
+        default: op
+      thewarn.thewarnunban.cmd:
+        description: Unban a banned player by theWarn
+        default: op
