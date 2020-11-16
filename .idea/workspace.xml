@@ -39,6 +39,11 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="supercrafter333 &lt;53967726+supercrafter333@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -67,6 +72,7 @@
       <updated>1605555904945</updated>
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
+      <workItem from="1605557802329" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -96,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605557554580</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ähm...">
+      <created>1605557847953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557847953</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lol" />
     <MESSAGE value="Better translating xD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better translating xD" />
+    <MESSAGE value="ähm..." />
+    <option name="LAST_COMMIT_MESSAGE" value="ähm..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
