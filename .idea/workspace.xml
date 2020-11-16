@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Better translating xD" />
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Better translating xD">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1kNzb32K1oJ9SAscJrIT3BVUcnd" />
   <component name="ProjectViewState">
@@ -73,7 +74,7 @@
       <updated>1605555904945</updated>
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
-      <workItem from="1605557802329" duration="170000" />
+      <workItem from="1605557802329" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605557958263</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ähm...">
+      <created>1605558052924</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558052924</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,10 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605557176096" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605557895729">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605558056918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605557895729" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605558056918" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
