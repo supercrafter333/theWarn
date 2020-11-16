@@ -17,7 +17,7 @@ bypass-permission: ``thewarn.cmd``
 
 
 ### License
-This Plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
+This plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
 
 
 
