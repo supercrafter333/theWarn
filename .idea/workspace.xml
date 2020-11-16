@@ -26,8 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="lol">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Better translating xD">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605555904945</updated>
       <workItem from="1605555906241" duration="1409000" />
-      <workItem from="1605557390715" duration="58000" />
+      <workItem from="1605557390715" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605556939886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Better translating xD">
+      <created>1605557510596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557510596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="lol" />
+    <MESSAGE value="Better translating xD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better translating xD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
