@@ -21,4 +21,4 @@ This Plugin is Licensed with the [GNU General Public License](/LICENSE)! Plugin 
 
 
 
-I hope that you have fun with this plugin!
+**I hope that you have fun with this plugin!**
