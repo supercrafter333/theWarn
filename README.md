@@ -5,7 +5,7 @@ Pssst... this plugin is on Poggit: <a href="https://poggit.pmmp.io/ci/supercraft
 
 
 ### Configuration
-In the plugin folder (server/plugin_data/theWarn) you can edit all messages in this plugin!
+In the plugin folder (server/plugin_data/theWarn/messages.yml) you can edit all messages in this plugin!
 
 
 ### Commands + Permissions
@@ -17,8 +17,8 @@ bypass-permission: ``thewarn.cmd``
 
 
 ### License
-This Plugin is Licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
+This Plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
 
 
 
-I hope that you have fun with this plugin!
+**I hope that you have fun with this plugin!**
