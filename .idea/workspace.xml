@@ -27,7 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
-      <changelist_data name="supercrafter333" email="53967726+supercrafter333@users.noreply.github.com" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1kNzb32K1oJ9SAscJrIT3BVUcnd" />
   <component name="ProjectViewState">
@@ -75,7 +77,7 @@
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
       <workItem from="1605557802329" duration="415000" />
-      <workItem from="1605631248109" duration="57000" />
+      <workItem from="1605631248109" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605631285401</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="better description">
+      <created>1605631318600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631318600</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
