@@ -27,6 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Better translating xD">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,8 @@
       <updated>1605555904945</updated>
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
-      <workItem from="1605557802329" duration="348000" />
+      <workItem from="1605557802329" duration="415000" />
+      <workItem from="1605631248109" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605558129319</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="better translate">
+      <created>1605558168380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558168380</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +197,8 @@
     <MESSAGE value="lol" />
     <MESSAGE value="Better translating xD" />
     <MESSAGE value="ähm..." />
-    <option name="LAST_COMMIT_MESSAGE" value="ähm..." />
+    <MESSAGE value="better translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="better translate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
@@ -199,10 +209,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605557176096" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605558056918">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605558172207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605558056918" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605558172207" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
