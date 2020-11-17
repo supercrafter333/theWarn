@@ -20,7 +20,7 @@ bypass-permission: ``thewarn.cmd``
 - configurate ban time after the 3rd warn
 
 ### WIP (work-in-progress)
-There's not anything work in progress!
+There's not anything work in progress! xD
 
 ### License
 This plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!

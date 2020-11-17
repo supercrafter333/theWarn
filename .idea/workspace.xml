@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description" />
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1kNzb32K1oJ9SAscJrIT3BVUcnd" />
   <component name="ProjectViewState">
@@ -74,7 +75,7 @@
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
       <workItem from="1605557802329" duration="415000" />
-      <workItem from="1605631248109" duration="1245000" />
+      <workItem from="1605631248109" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605632330823</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="better description">
+      <created>1605632839684</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605632839684</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +196,13 @@
                       </list>
                     </value>
                   </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -197,6 +212,17 @@
     </option>
     <option name="RECENT_FILTERS">
       <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
         <entry key="User">
           <value>
             <list>
