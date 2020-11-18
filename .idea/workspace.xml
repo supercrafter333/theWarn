@@ -26,7 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Better translating xD">
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,27 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="supercrafter333 &lt;53967726+supercrafter333@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1605555904945</updated>
       <workItem from="1605555906241" duration="1409000" />
-      <workItem from="1605557390715" duration="157000" />
+      <workItem from="1605557390715" duration="233000" />
+      <workItem from="1605557802329" duration="415000" />
+      <workItem from="1605631248109" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -91,7 +111,91 @@
       <option name="project" value="LOCAL" />
       <updated>1605557510596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Better translating xD">
+      <created>1605557554579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557554580</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ähm...">
+      <created>1605557847953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557847953</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ähm...">
+      <created>1605557893789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557893789</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ähm...">
+      <created>1605557958263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557958263</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ähm...">
+      <created>1605558052924</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558052924</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ähm...">
+      <created>1605558129319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558129319</updated>
+    </task>
+    <task id="LOCAL-00010" summary="better translate">
+      <created>1605558168380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605558168380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="better description">
+      <created>1605631285401</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631285401</updated>
+    </task>
+    <task id="LOCAL-00012" summary="better description">
+      <created>1605631318600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631318600</updated>
+    </task>
+    <task id="LOCAL-00013" summary="better description">
+      <created>1605632330823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605632330823</updated>
+    </task>
+    <task id="LOCAL-00014" summary="better description">
+      <created>1605632839684</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605632839684</updated>
+    </task>
+    <task id="LOCAL-00015" summary="better description">
+      <created>1605632938219</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605632938219</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,12 +207,24 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
                         <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
                       </list>
                     </value>
                   </entry>
@@ -121,6 +237,17 @@
     </option>
     <option name="RECENT_FILTERS">
       <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
         <entry key="User">
           <value>
             <list>
@@ -139,7 +266,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lol" />
     <MESSAGE value="Better translating xD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better translating xD" />
+    <MESSAGE value="ähm..." />
+    <MESSAGE value="better translate" />
+    <MESSAGE value="better description" />
+    <option name="LAST_COMMIT_MESSAGE" value="better description" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
@@ -150,9 +280,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605557176096" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605557207714">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605633173945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605557207714" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605633173945" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605557946043" />
   </component>
 </project>
