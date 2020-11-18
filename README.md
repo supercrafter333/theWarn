@@ -16,9 +16,15 @@ In the plugin folder (server/plugin_data/theWarn/messages.yml) you can edit all 
 bypass-permission: ``thewarn.cmd``
 
 
+### TODOs
+- configurate ban time after the 3rd warn
+
+### WIP (work-in-progress)
+There's not anything work in progress!
+
 ### License
-This Plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
+This plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
 
 
 
-**I hope that you have fun with this plugin!**
+I hope that you have fun with this plugin!
