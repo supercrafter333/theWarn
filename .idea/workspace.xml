@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="V1.2.0-dev  -  add configuration for ban time!&#10;&#10;INFO:&#10;- delete the config files of this plugin and restart your server to update the files!">
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1605557390715" duration="233000" />
       <workItem from="1605557802329" duration="415000" />
       <workItem from="1605631248109" duration="1515000" />
-      <workItem from="1605782435994" duration="1913000" />
+      <workItem from="1605782435994" duration="2736000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605784300689</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="better description">
+      <created>1605784549755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605784549755</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,9 +282,9 @@
     <MESSAGE value="Better translating xD" />
     <MESSAGE value="ähm..." />
     <MESSAGE value="better translate" />
-    <MESSAGE value="better description" />
     <MESSAGE value="V1.2.0-dev  -  add configuration for ban time!&#10;&#10;INFO:&#10;- delete the config files of this plugin and restart your server to update the files!" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.2.0-dev  -  add configuration for ban time!&#10;&#10;INFO:&#10;- delete the config files of this plugin and restart your server to update the files!" />
+    <MESSAGE value="better description" />
+    <option name="LAST_COMMIT_MESSAGE" value="better description" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="236" key="#Notifications" timestamp="1605722106550">
@@ -296,10 +303,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605722221267" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605784302602">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605784550976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605784302602" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605784550976" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

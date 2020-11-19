@@ -68,7 +68,7 @@ class theWarn extends PluginBase implements Listener {
                             $bt = $bantime->format('Y-m-d H:i:s');
                             $ban->set($warnplayername, $bt);
                             $ban->save();
-                            $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayer->getName()], str_replace(["{bantime}"], [$bandays->get("banned-days")." days"], $prefix . $messages->get("player-was-banned-message")));
+                            $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayer->getName()], str_replace(["{bantime}"], [$bandays->get("banned-days")." days"], $prefix . $messages->get("player-was-banned-message"))));
                             return true;
                         }
                     } else {
