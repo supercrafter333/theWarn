@@ -4,7 +4,6 @@ namespace supercrafter333\theWarn;
 
 use DateInterval;
 use DateTime;
-use Error;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;

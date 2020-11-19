@@ -21,13 +21,14 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +42,6 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="supercrafter333 &lt;53967726+supercrafter333@users.noreply.github.com&gt;" />
@@ -61,7 +49,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +76,8 @@
       <workItem from="1605555906241" duration="1409000" />
       <workItem from="1605557390715" duration="233000" />
       <workItem from="1605557802329" duration="415000" />
-      <workItem from="1605631248109" duration="2079000" />
+      <workItem from="1605631248109" duration="1515000" />
+      <workItem from="1605782435994" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -188,14 +177,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605632839684</updated>
     </task>
-    <task id="LOCAL-00015" summary="better description">
-      <created>1605632938219</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1605632938219</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,17 +189,12 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -272,6 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="better description" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="236" key="#Notifications" timestamp="1605722106550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1605722106550" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -280,10 +261,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605557176096" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605633173945">
+    <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog" timestamp="1605722221267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605633173945" />
+    <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605722221267" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605632333167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605632333167" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
