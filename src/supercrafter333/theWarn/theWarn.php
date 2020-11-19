@@ -21,8 +21,13 @@ class theWarn extends PluginBase implements Listener {
         $this->saveResource("messages.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
-        if (!$messages->exists("version") && !$messages->get("version") == "1.1") {
+        $bandays = new Config($this->getDataFolder() . "banconfig.yml", Config::YAML);
+        if (!$messages->exists("version") && !$messages->get("version") == "1.2") {
             $this->getServer()->getLogger()->error("<theWarn> !!OUTDATED CONFIG!! Please delete the file »messages.yml« and restart your server!");
+            $this->getServer()->getPluginManager()->disablePlugin($this);
+        }
+        if (!$bandays->exists("version") && !$bandays->get("version") == "1.2") {
+            $this->getServer()->getLogger()->error("<theWarn> !!OUTDATED CONFIG!! Please delete the file »banconfig.yml« and restart your server!");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
     }
@@ -41,6 +46,7 @@ class theWarn extends PluginBase implements Listener {
         $name = $s->getName();
         $config = new Config($this->getDataFolder() . "warns.yml", Config::YAML);
         $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
+        $bandays = new Config($this->getDataFolder() . "banconfig.yml", Config::YAML);
         if ($cmd->getName() == "thewarn") {
             if ($s->hasPermission("thewarn.warn.cmd")) {
                 if (count($args) >= 2) {
@@ -58,11 +64,11 @@ class theWarn extends PluginBase implements Listener {
                             $warnplayer->kick(str_replace(["{player}"], [$s->getName()], $messages->get("ban-kick-message")), false);
                             $config->set($warnplayername, "banned");
                             $config->save();
-                            $bantime = new DateTime('+7 days');
+                            $bantime = new DateTime('+' . $bandays->get("banned-days") . ' days');
                             $bt = $bantime->format('Y-m-d H:i:s');
                             $ban->set($warnplayername, $bt);
                             $ban->save();
-                            $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayer->getName()], $prefix . $messages->get("player-was-banned-message")));
+                            $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayer->getName()], str_replace(["{bantime}"], [$bandays->get("banned-days")." days"], $prefix . $messages->get("player-was-banned-message")));
                             return true;
                         }
                     } else {
