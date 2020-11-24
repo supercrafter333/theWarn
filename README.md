@@ -17,10 +17,10 @@ bypass-permission: ``thewarn.cmd``
 
 
 ### TODOs
-- configurate ban time after the 3rd warn
+There's not anything for TODO!
 
 ### WIP (work-in-progress)
-There's not anything work in progress!
+- [X] configurate ban time after the 3rd warn [BETA]
 
 ### License
 This plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
