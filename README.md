@@ -23,7 +23,7 @@ There's not anything for TODO!
 - [X] configurate ban time after the 3rd warn [BETA]
 
 ### License
-This plugin is licensed with the [GNU General Public License](/LICENSE)! Plugin by supercrafter333!
+This plugin is licensed with the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!
 
 
 
