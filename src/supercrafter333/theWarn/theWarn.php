@@ -19,6 +19,7 @@ class theWarn extends PluginBase implements Listener {
     public function onEnable()
     {
         $this->saveResource("messages.yml");
+        $this->saveResource("banconfig.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
         $bandays = new Config($this->getDataFolder() . "banconfig.yml", Config::YAML);
