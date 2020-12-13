@@ -16,10 +16,16 @@ class theWarn extends PluginBase implements Listener {
     public function onEnable()
     {
         $this->saveResource("messages.yml");
+        $this->saveResource("banconfig.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
-        if (!$messages->exists("version") && !$messages->get("version") == "1.1") {
+        $banconfig = new Config($this->getDataFolder() . "banconfig.yml", Config::YAML);
+        if (!$messages->exists("version") && !$messages->get("version") == "1.3") {
             $this->getServer()->getLogger()->error("<theWarn> !!OUTDATED CONFIG!! Please delete the file »messages.yml« and restart your server!");
+            $this->getServer()->getPluginManager()->disablePlugin($this);
+        }
+        if (!$banconfig->exists("version") && !$banconfig->get("version") == "1.3") {
+            $this->getServer()->getLogger()->error("<theWarn> !!OUTDATED CONFIG!! Please delete the file »banconfig.yml« and restart your server!");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
     }
@@ -37,6 +43,7 @@ class theWarn extends PluginBase implements Listener {
         $prefix = "§f[§7the§dWarn§f] §8»§r ";
         $config = new Config($this->getDataFolder() . "warns.yml", Config::YAML);
         $messages = new Config($this->getDataFolder() . "messages.yml", Config::YAML);
+        $banconfig = new Config($this->getDataFolder() . "banconfig.yml", Config::YAML);
         if ($cmd->getName() === "thewarn") {
             if (!$s->hasPermission("thewarn.warn.cmd")) {
                 $s->sendMessage($prefix . $messages->get("missing-permissions-message"));
@@ -52,20 +59,20 @@ class theWarn extends PluginBase implements Listener {
                 return true;
             }
             $warnplayername = $warnplayer->getName();
-            if ($config->get($warnplayername) < 3) { // TODO: configurable warn count
+            if ($config->get($warnplayername) < $banconfig->get("warn-count")) {
                 $config->set($warnplayername, intval($config->get($warnplayername) + 1));
                 $config->save();
                 $warnplayer->sendMessage(str_replace(["{player}"], [$s->getName()], str_replace(["{warnplayer}"], [$warnplayername], str_replace(["{warnnumber}"], [$config->get($warnplayername)], $prefix . $messages->get("warn-message")))));
                 $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayername], str_replace(["{warnnumber}"], [$config->get($warnplayername)], $prefix . $messages->get("player-was-warned-message"))));
-            } elseif ($config->get($warnplayername) >= 3) { // TODO: configurable warn count
-                $this->getServer()->getNameBans()->addBan($warnplayername, $messages->get("ban-kick-message"), new DateTime('+7 days'), $s->getName());
+            } elseif ($config->get($warnplayername) >= $banconfig->get("warn-count")) {
+                $this->getServer()->getNameBans()->addBan($warnplayername, $messages->get("ban-kick-message"), new DateTime('+' . $banconfig->get("banned-days") . ' days'), $s->getName());
                 $warnplayer->kick(str_replace(["{player}"], [$s->getName()], $messages->get("ban-kick-message")), false);
                 $config->set($warnplayername, "banned");
                 $config->save();
                 $s->sendMessage(str_replace(["{warnplayer}"], [$warnplayer->getName()], $prefix . $messages->get("player-was-banned-message")));
             }
         }elseif ($cmd->getName() === "thewarnunban") {
-            if ($s->hasPermission("thewarn.thewarnunban.cmd")) {
+            if (!$s->hasPermission("thewarn.thewarnunban.cmd")) {
                 $s->sendMessage($prefix . $messages->get("missing-permissions-message"));
                 return true;
             }
