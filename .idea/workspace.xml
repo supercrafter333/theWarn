@@ -26,8 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="add changelod data">
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="mini fix">
       <change beforePath="$PROJECT_DIR$/.changelogs.md" beforeDir="false" afterPath="$PROJECT_DIR$/.changelogs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607899515324</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mini fix">
+      <created>1607899561828</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899561828</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mini fix">
+      <created>1607899631362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899631362</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +246,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="test" />
                       </list>
                     </value>
                   </entry>
@@ -285,6 +300,7 @@
     <MESSAGE value="better description" />
     <MESSAGE value="fixed some bugs, added some improvements" />
     <MESSAGE value="add changelod data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add changelod data" />
+    <MESSAGE value="mini fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini fix" />
   </component>
 </project>
