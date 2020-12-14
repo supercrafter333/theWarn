@@ -20,7 +20,10 @@ bypass-permission: ``thewarn.cmd``
 There's not anything for TODO!
 
 ### WIP (work-in-progress)
-- [X] configurate ban time after the 3rd warn [BETA]
+There's not anything for WIP.
+
+### Changelogs
+Changelogs: [view changelogs](/.changelogs.md)
 
 ### License
 This plugin is licensed with the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!
