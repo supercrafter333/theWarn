@@ -1,0 +1,7 @@
+#here you can set the ban time in days. Please set a number and don't write day/s after the number!
+banned-days: 7
+#here you can set the count of warns
+warn-count: 3
+
+#don't change this
+version: 1.3

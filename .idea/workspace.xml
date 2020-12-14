@@ -26,8 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="better description">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="mini fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
       <workItem from="1605557390715" duration="233000" />
       <workItem from="1605557802329" duration="415000" />
       <workItem from="1605631248109" duration="2079000" />
+      <workItem from="1607940993881" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -195,7 +196,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605632938219</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed some bugs, added some improvements">
+      <created>1607898637752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607898637752</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add changelod data">
+      <created>1607899515324</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899515324</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mini fix">
+      <created>1607899561828</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899561828</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mini fix">
+      <created>1607899631362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607899631362</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mini fix">
+      <created>1607900049793</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607900049793</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="test" />
                       </list>
                     </value>
                   </entry>
@@ -269,24 +305,9 @@
     <MESSAGE value="ähm..." />
     <MESSAGE value="better translate" />
     <MESSAGE value="better description" />
-    <option name="LAST_COMMIT_MESSAGE" value="better description" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1605556688983">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605556688983" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605557176096">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605557176096" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605633173945">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605633173945" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1605557946043">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605557946043" />
+    <MESSAGE value="fixed some bugs, added some improvements" />
+    <MESSAGE value="add changelod data" />
+    <MESSAGE value="mini fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini fix" />
   </component>
 </project>

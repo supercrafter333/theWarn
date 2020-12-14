@@ -16,4 +16,4 @@ manual-unban-usage-message: "§4Usage: §r/thewarnunban <playername>"
 manual-unban-invalid-playername-message: "This player is not banned!"
 
 #don't change this
-version: 1.1
+version: 1.3
