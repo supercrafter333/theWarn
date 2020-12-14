@@ -54,7 +54,7 @@ class theWarn extends PluginBase implements Listener {
                 return false;
             }
             $warnplayer = $this->getServer()->getPlayer($args[0]);
-            if ($warnplayer !== null) {
+            if ($warnplayer == null) {
                 $s->sendMessage($prefix . $messages->get("invalid-playername-message"));
                 return true;
             }

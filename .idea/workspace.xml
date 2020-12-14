@@ -27,7 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="mini fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/supercrafter333/theWarn/theWarn.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="test" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -308,6 +308,7 @@
     <MESSAGE value="fixed some bugs, added some improvements" />
     <MESSAGE value="add changelod data" />
     <MESSAGE value="mini fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="mini fix" />
+    <MESSAGE value="some bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some bug fixes" />
   </component>
 </project>
