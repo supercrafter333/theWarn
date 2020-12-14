@@ -84,10 +84,12 @@ class theWarn extends PluginBase implements Listener {
                 $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-invalid-playername-message")));
                 return true;
             }
-            $config->remove($args[0]);
-            $config->save();
-            $this->getServer()->getNameBans()->remove($args[0]);
-            $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-message")));
+            if ($config->get($args[0]) == "banned") {
+                $config->remove($args[0]);
+                $config->save();
+                $this->getServer()->getNameBans()->remove($args[0]);
+                $s->sendMessage(str_replace(["{player}"], [$args[0]], $prefix . $messages->get("manual-unban-message")));
+            }
         }
         return true;
     }
