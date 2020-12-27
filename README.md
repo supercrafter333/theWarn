@@ -1,4 +1,4 @@
-# theWarn   [![](https://poggit.pmmp.io/shield.state/theWarn)](https://poggit.pmmp.io/p/theWarn)
+# theWarn   [![](https://poggit.pmmp.io/shield.state/theWarn)](https://poggit.pmmp.io/p/theWarn) [![](https://poggit.pmmp.io/shield.dl.total/theWarn)](https://poggit.pmmp.io/p/theWarn)
 With this plugin, moderators can warn other players! The warned players are automatically banned for 7 days with the 3rd warning!
 
 Pssst... this plugin is on Poggit: <a href="https://poggit.pmmp.io/ci/supercrafter333/theWarn">theWarn</a>
