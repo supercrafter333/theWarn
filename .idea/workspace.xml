@@ -26,8 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e0cfab7-8c66-463e-96b7-f5578fe7e2b5" name="Default Changelist" comment="Update README.md">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
       <workItem from="1605631248109" duration="2079000" />
       <workItem from="1607940993881" duration="852000" />
       <workItem from="1607976956957" duration="260000" />
-      <workItem from="1609095959054" duration="313000" />
+      <workItem from="1609095959054" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="lol">
       <created>1605556701526</created>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609096160673</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update README.md">
+      <created>1609096286803</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609096286803</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +341,7 @@
     <MESSAGE value="mini fix" />
     <MESSAGE value="some bug fixes" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
 </project>
