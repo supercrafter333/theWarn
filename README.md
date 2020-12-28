@@ -28,6 +28,17 @@ Changelogs: [view changelogs](/.changelogs.md)
 ### License
 This plugin is licensed with the [Apache License 2.0](/LICENSE)! Plugin by supercrafter333!
 
+### Credits
+Owner: supercrafter333
+
+main developer: supercrafter333
+
+icon: Selfmade
+
+Thanks to: jasonwhynn10 (who helped me a bit)
+
+### final sentence
+**Do you have Questions? Contact me on Discord: supercrafter333#4062** OR **open a Issue in this GitHub Repo**
 
 
 I hope that you have fun with this plugin!
