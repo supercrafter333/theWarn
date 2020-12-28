@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   theWarn:
+    icon: "icon.png"
     path: ""
 ...
